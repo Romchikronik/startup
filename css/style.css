@@ -601,3 +601,31 @@ footer p{
     font-size: 12px;
     color: #fff;
 }
+
+.topb{
+    width: 50px;
+    height: 80px;
+    background: rgba(223, 189, 212, 0.493);
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+    border: 1px solid #c0301c;
+ display: none;
+}
+
+.topb .fa{
+    font-size: 30px;
+    color: #c0301c;
+}
+
+.topb:focus{
+    outline: none;
+}
+
+.topb:hover{
+    border-color: black;
+}
+
+.topb:hover .fa{
+    color: black;
+}
