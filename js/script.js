@@ -1,4 +1,5 @@
-var btn = document.querySelector('.topb');
+$(document).ready(function () {
+    var btn = document.querySelector('.topb');
 var timer;
 btn.onclick = toTop;
 
@@ -19,3 +20,17 @@ function toTop(){
         setTimeout(toTop, 30);
     }
 }
+
+
+function filterImg(imgDf){
+    $('.img-df').filter(imgDf).show();
+    $('.img-df').not(imgDf).hide();
+}
+
+$('.btn-img').click(function(){
+    var dataImg = $(this).attr('data-img');
+    filterImg('.' + dataImg);
+    $(this).addClass('active');
+    $('.btn-img').not(this).removeClass('active');
+})
+});

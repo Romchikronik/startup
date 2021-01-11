@@ -266,6 +266,7 @@ section{
     margin: 0 15px;
 }
 
+.btn-img:hover,
 .controls .active{
     color: #c0301c;
 }

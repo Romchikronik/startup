@@ -198,14 +198,14 @@
         <h2 class="title">latest work</h2>
         <div class="line"></div>
         <div class="controls">
-          <button class="active">All</button>
-          <button>Branding</button>
-          <button>Design</button>
-          <button>Development</button>
-          <button>Strategy</button>
+          <button class="active btn-img" data-img="img-df">All</button>
+          <button class="btn-img" data-img="branding">Branding</button>
+          <button class="btn-img" data-img="design">Design</button>
+          <button class="btn-img" data-img="development">Development</button>
+          <button class="btn-img" data-img="strategy">Strategy</button>
         </div>
         <div class="row">
-          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 img-df branding">
             <div class="gallery-item">
               <img src="images/works_image1.jpg" alt="" class="w-100">
               <div class="gallery-view">
@@ -215,7 +215,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 img-df design">
             <div class="gallery-item">
               <img src="images/works_image2.jpg" alt="" class="w-100">
               <div class="gallery-view">
@@ -225,7 +225,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 img-df branding">
             <div class="gallery-item">
               <img src="images/works_image3.jpg" alt="" class="w-100">
               <div class="gallery-view">
@@ -235,7 +235,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 img-df development">
             <div class="gallery-item">
               <img src="images/works_image4.jpg" alt="" class="w-100">
               <div class="gallery-view">
@@ -245,7 +245,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 img-df design">
             <div class="gallery-item">
               <img src="images/works_image5.jpg" alt="" class="w-100">
               <div class="gallery-view">
@@ -255,7 +255,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 img-df development">
             <div class="gallery-item">
               <img src="images/works_image6.jpg" alt="" class="w-100">
               <div class="gallery-view">
@@ -265,7 +265,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 img-df development">
             <div class="gallery-item">
               <img src="images/works_image7.jpg" alt="" class="w-100">
               <div class="gallery-view">
@@ -275,7 +275,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 img-df strategy">
             <div class="gallery-item">
               <img src="images/works_image8.jpg" alt="" class="w-100">
               <div class="gallery-view">
@@ -285,7 +285,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 img-df strategy">
             <div class="gallery-item">
               <img src="images/works_image9.jpg" alt="" class="w-100">
               <div class="gallery-view">
@@ -459,12 +459,13 @@
     
     
     
-    <script src="js/script.js"></script>
+    
   <script src="js/jquery-3.5.1.min.js"></script>  
   <script src="js/popper.min.js"></script>  
   <script src="js/bootstrap.min.js"></script> 
   <script src="js/slick.js"></script> 
   <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/script.js"></script>
   <script>
     $(document).ready(function () {
       $('.about-slider').slick({
